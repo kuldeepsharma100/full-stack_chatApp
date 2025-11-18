@@ -32,7 +32,7 @@ pipeline {
 
     post {
         success {
-            echo 'Deployment and tests completed successfully!'
+            echo 'Deployment and tests completed successfully! modified '
         }
         failure {
             echo 'Deployment or tests failed updated ......'
