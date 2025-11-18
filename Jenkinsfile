@@ -35,7 +35,7 @@ pipeline {
             echo 'Deployment and tests completed successfully!'
         }
         failure {
-            echo 'Deployment or tests failed....'
+            echo 'Deployment or tests failed.....'
         }
     }
 }
